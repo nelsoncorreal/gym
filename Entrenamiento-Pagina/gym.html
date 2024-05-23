@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutina de Entrenamiento - Gym Tracker</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+    <header>
+        <h1>Rutina de Entrenamiento Personal Nelson Correal</h1>
+    </header>
+    <main>
+        <section id="rutina">
+            <h2>Rutina de Entrenamiento</h2>
+            <!-- Menú desplegable de días -->
+            <ul class="menu-dia" id="menu-dias">
+                <li class="menu-item" data-dia="dia1"><h3>Día 1: Pecho y Tríceps</h3></li>
+                <li class="menu-item" data-dia="dia2"><h3>Día 2: Espalda y Bíceps</h3></li>
+                <li class="menu-item" data-dia="dia3"><h3>Día 3: Piernas</h3></li>
+                <li class="menu-item" data-dia="dia4"><h3>Día 4: Hombros y Trapecio</h3></li>
+                <li class="menu-item" data-dia="dia5"><h3>Día 5: Piernas y Abdominales</h3></li>
+                <li class="menu-item" data-dia="dia6"><h3>Día 6: Pecho, Espalda y Abdominales</h3></li>
+            </ul>
+            <!-- Contenedor de los ejercicios -->
+            <div id="ejercicios">
+                <!-- Los ejercicios se agregarán dinámicamente con JavaScript -->
+            </div>
+        </section>
+
+        <section id="recomendaciones">
+            <h2>Recomendaciones</h2>
+            <!-- Aquí se mostrarán las recomendaciones basadas en el progreso -->
+            <p id="mensaje-recomendaciones">¡Mantén el buen trabajo!</p>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Nelson Fernando Correal</p>
+    </footer>
+    <script src="gym.js"></script>
+</body>
+</html>
